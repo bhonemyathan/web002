@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #2f363e;
+    }
+    
+    .input {
+        width: 300px;
+        height: 30px;
+    }
+    
+    .btn {
+        width: 100px;
+        height: 30px;
+        background-color: darkkhaki;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="form">
+        <form action="/userlist.do">
+            <input class="input" type="search" name="key">
+            <input class="btn" type="submit" value="Search">
+        </form>
+
+    </div>
+</body>
+
+</html>
